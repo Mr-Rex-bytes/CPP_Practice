@@ -40,6 +40,7 @@ class Vector
             // #VAJ - Write Comments describing what this function does
             void   get_values()
             {
+                cout << "We are representing our vector in ai+bj+ck format, where a, b, c are coefficients of X, Y, Z resp." <<endl;
                 cout << "Enter coefficient of i" <<endl;
                 cin >> a;
                 cout << endl <<"Enter coefficient of j" <<endl;
@@ -84,8 +85,6 @@ class Vector
                 cross_product.b = (V.c * U.a) - (V.a * U.c);
                 cross_product.c = (V.a * U.b) - (V.b * U.a);
                 return cross_product;
-
-
             }
 
             // #VAJ - Write Comments describing what this function does
